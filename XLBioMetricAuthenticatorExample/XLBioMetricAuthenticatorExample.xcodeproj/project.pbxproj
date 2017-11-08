@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		994CBF571FB2E5F700490A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CBF561FB2E5F700490A46 /* AppDelegate.swift */; };
+		994CBF591FB2E5F700490A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CBF581FB2E5F700490A46 /* ViewController.swift */; };
+		994CBF5C1FB2E5F700490A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994CBF5A1FB2E5F700490A46 /* Main.storyboard */; };
+		994CBF5E1FB2E5F700490A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994CBF5D1FB2E5F700490A46 /* Assets.xcassets */; };
+		994CBF611FB2E5F700490A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994CBF5F1FB2E5F700490A46 /* LaunchScreen.storyboard */; };
+		994CBF6C1FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CBF6B1FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.swift */; };
+		994CBF771FB2E5F800490A46 /* XLBioMetricAuthenticatorExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CBF761FB2E5F800490A46 /* XLBioMetricAuthenticatorExampleUITests.swift */; };
+		994CBF851FB2E64400490A46 /* XLBioMetricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CBF841FB2E64400490A46 /* XLBioMetricAuthenticator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		994CBF681FB2E5F700490A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994CBF4B1FB2E5F700490A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994CBF521FB2E5F700490A46;
+			remoteInfo = XLBioMetricAuthenticatorExample;
+		};
+		994CBF731FB2E5F700490A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994CBF4B1FB2E5F700490A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994CBF521FB2E5F700490A46;
+			remoteInfo = XLBioMetricAuthenticatorExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		994CBF531FB2E5F700490A46 /* XLBioMetricAuthenticatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLBioMetricAuthenticatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		994CBF561FB2E5F700490A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		994CBF581FB2E5F700490A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		994CBF5B1FB2E5F700490A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		994CBF5D1FB2E5F700490A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		994CBF601FB2E5F700490A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		994CBF621FB2E5F700490A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994CBF671FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLBioMetricAuthenticatorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994CBF6B1FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLBioMetricAuthenticatorExampleTests.swift; sourceTree = "<group>"; };
+		994CBF6D1FB2E5F700490A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994CBF721FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLBioMetricAuthenticatorExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994CBF761FB2E5F800490A46 /* XLBioMetricAuthenticatorExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLBioMetricAuthenticatorExampleUITests.swift; sourceTree = "<group>"; };
+		994CBF781FB2E5F800490A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994CBF841FB2E64400490A46 /* XLBioMetricAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLBioMetricAuthenticator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		994CBF501FB2E5F700490A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CBF641FB2E5F700490A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CBF6F1FB2E5F700490A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		994CBF4A1FB2E5F700490A46 = {
+			isa = PBXGroup;
+			children = (
+				994CBF551FB2E5F700490A46 /* XLBioMetricAuthenticatorExample */,
+				994CBF6A1FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests */,
+				994CBF751FB2E5F800490A46 /* XLBioMetricAuthenticatorExampleUITests */,
+				994CBF541FB2E5F700490A46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		994CBF541FB2E5F700490A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				994CBF531FB2E5F700490A46 /* XLBioMetricAuthenticatorExample.app */,
+				994CBF671FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.xctest */,
+				994CBF721FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		994CBF551FB2E5F700490A46 /* XLBioMetricAuthenticatorExample */ = {
+			isa = PBXGroup;
+			children = (
+				994CBF561FB2E5F700490A46 /* AppDelegate.swift */,
+				994CBF581FB2E5F700490A46 /* ViewController.swift */,
+				994CBF841FB2E64400490A46 /* XLBioMetricAuthenticator.swift */,
+				994CBF5A1FB2E5F700490A46 /* Main.storyboard */,
+				994CBF5D1FB2E5F700490A46 /* Assets.xcassets */,
+				994CBF5F1FB2E5F700490A46 /* LaunchScreen.storyboard */,
+				994CBF621FB2E5F700490A46 /* Info.plist */,
+			);
+			path = XLBioMetricAuthenticatorExample;
+			sourceTree = "<group>";
+		};
+		994CBF6A1FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				994CBF6B1FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.swift */,
+				994CBF6D1FB2E5F700490A46 /* Info.plist */,
+			);
+			path = XLBioMetricAuthenticatorExampleTests;
+			sourceTree = "<group>";
+		};
+		994CBF751FB2E5F800490A46 /* XLBioMetricAuthenticatorExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				994CBF761FB2E5F800490A46 /* XLBioMetricAuthenticatorExampleUITests.swift */,
+				994CBF781FB2E5F800490A46 /* Info.plist */,
+			);
+			path = XLBioMetricAuthenticatorExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		994CBF521FB2E5F700490A46 /* XLBioMetricAuthenticatorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994CBF7B1FB2E5F800490A46 /* Build configuration list for PBXNativeTarget "XLBioMetricAuthenticatorExample" */;
+			buildPhases = (
+				994CBF4F1FB2E5F700490A46 /* Sources */,
+				994CBF501FB2E5F700490A46 /* Frameworks */,
+				994CBF511FB2E5F700490A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLBioMetricAuthenticatorExample;
+			productName = XLBioMetricAuthenticatorExample;
+			productReference = 994CBF531FB2E5F700490A46 /* XLBioMetricAuthenticatorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		994CBF661FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994CBF7E1FB2E5F800490A46 /* Build configuration list for PBXNativeTarget "XLBioMetricAuthenticatorExampleTests" */;
+			buildPhases = (
+				994CBF631FB2E5F700490A46 /* Sources */,
+				994CBF641FB2E5F700490A46 /* Frameworks */,
+				994CBF651FB2E5F700490A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994CBF691FB2E5F700490A46 /* PBXTargetDependency */,
+			);
+			name = XLBioMetricAuthenticatorExampleTests;
+			productName = XLBioMetricAuthenticatorExampleTests;
+			productReference = 994CBF671FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		994CBF711FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994CBF811FB2E5F800490A46 /* Build configuration list for PBXNativeTarget "XLBioMetricAuthenticatorExampleUITests" */;
+			buildPhases = (
+				994CBF6E1FB2E5F700490A46 /* Sources */,
+				994CBF6F1FB2E5F700490A46 /* Frameworks */,
+				994CBF701FB2E5F700490A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994CBF741FB2E5F700490A46 /* PBXTargetDependency */,
+			);
+			name = XLBioMetricAuthenticatorExampleUITests;
+			productName = XLBioMetricAuthenticatorExampleUITests;
+			productReference = 994CBF721FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		994CBF4B1FB2E5F700490A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = xx11dragon;
+				TargetAttributes = {
+					994CBF521FB2E5F700490A46 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					994CBF661FB2E5F700490A46 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 994CBF521FB2E5F700490A46;
+					};
+					994CBF711FB2E5F700490A46 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 994CBF521FB2E5F700490A46;
+					};
+				};
+			};
+			buildConfigurationList = 994CBF4E1FB2E5F700490A46 /* Build configuration list for PBXProject "XLBioMetricAuthenticatorExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 994CBF4A1FB2E5F700490A46;
+			productRefGroup = 994CBF541FB2E5F700490A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				994CBF521FB2E5F700490A46 /* XLBioMetricAuthenticatorExample */,
+				994CBF661FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests */,
+				994CBF711FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		994CBF511FB2E5F700490A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CBF611FB2E5F700490A46 /* LaunchScreen.storyboard in Resources */,
+				994CBF5E1FB2E5F700490A46 /* Assets.xcassets in Resources */,
+				994CBF5C1FB2E5F700490A46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CBF651FB2E5F700490A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CBF701FB2E5F700490A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		994CBF4F1FB2E5F700490A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CBF591FB2E5F700490A46 /* ViewController.swift in Sources */,
+				994CBF571FB2E5F700490A46 /* AppDelegate.swift in Sources */,
+				994CBF851FB2E64400490A46 /* XLBioMetricAuthenticator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CBF631FB2E5F700490A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CBF6C1FB2E5F700490A46 /* XLBioMetricAuthenticatorExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CBF6E1FB2E5F700490A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CBF771FB2E5F800490A46 /* XLBioMetricAuthenticatorExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		994CBF691FB2E5F700490A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994CBF521FB2E5F700490A46 /* XLBioMetricAuthenticatorExample */;
+			targetProxy = 994CBF681FB2E5F700490A46 /* PBXContainerItemProxy */;
+		};
+		994CBF741FB2E5F700490A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994CBF521FB2E5F700490A46 /* XLBioMetricAuthenticatorExample */;
+			targetProxy = 994CBF731FB2E5F700490A46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		994CBF5A1FB2E5F700490A46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				994CBF5B1FB2E5F700490A46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		994CBF5F1FB2E5F700490A46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				994CBF601FB2E5F700490A46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		994CBF791FB2E5F800490A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		994CBF7A1FB2E5F800490A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		994CBF7C1FB2E5F800490A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K5J84PQLB;
+				INFOPLIST_FILE = XLBioMetricAuthenticatorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xx11dragon.XLBioMetricAuthenticatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		994CBF7D1FB2E5F800490A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K5J84PQLB;
+				INFOPLIST_FILE = XLBioMetricAuthenticatorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xx11dragon.XLBioMetricAuthenticatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		994CBF7F1FB2E5F800490A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K5J84PQLB;
+				INFOPLIST_FILE = XLBioMetricAuthenticatorExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xx11dragon.XLBioMetricAuthenticatorExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLBioMetricAuthenticatorExample.app/XLBioMetricAuthenticatorExample";
+			};
+			name = Debug;
+		};
+		994CBF801FB2E5F800490A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K5J84PQLB;
+				INFOPLIST_FILE = XLBioMetricAuthenticatorExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xx11dragon.XLBioMetricAuthenticatorExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLBioMetricAuthenticatorExample.app/XLBioMetricAuthenticatorExample";
+			};
+			name = Release;
+		};
+		994CBF821FB2E5F800490A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K5J84PQLB;
+				INFOPLIST_FILE = XLBioMetricAuthenticatorExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xx11dragon.XLBioMetricAuthenticatorExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XLBioMetricAuthenticatorExample;
+			};
+			name = Debug;
+		};
+		994CBF831FB2E5F800490A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K5J84PQLB;
+				INFOPLIST_FILE = XLBioMetricAuthenticatorExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xx11dragon.XLBioMetricAuthenticatorExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XLBioMetricAuthenticatorExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		994CBF4E1FB2E5F700490A46 /* Build configuration list for PBXProject "XLBioMetricAuthenticatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CBF791FB2E5F800490A46 /* Debug */,
+				994CBF7A1FB2E5F800490A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994CBF7B1FB2E5F800490A46 /* Build configuration list for PBXNativeTarget "XLBioMetricAuthenticatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CBF7C1FB2E5F800490A46 /* Debug */,
+				994CBF7D1FB2E5F800490A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994CBF7E1FB2E5F800490A46 /* Build configuration list for PBXNativeTarget "XLBioMetricAuthenticatorExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CBF7F1FB2E5F800490A46 /* Debug */,
+				994CBF801FB2E5F800490A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994CBF811FB2E5F800490A46 /* Build configuration list for PBXNativeTarget "XLBioMetricAuthenticatorExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CBF821FB2E5F800490A46 /* Debug */,
+				994CBF831FB2E5F800490A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 994CBF4B1FB2E5F700490A46 /* Project object */;
+}
