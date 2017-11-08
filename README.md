@@ -1,9 +1,6 @@
 # BioMetricAuthenticator
 
->一行代码完成 TouchID FaceID的使用
-
-
-
+>一行代码实现TouchID FaceID验证用户身份。
 
 ## 注意
 ```
